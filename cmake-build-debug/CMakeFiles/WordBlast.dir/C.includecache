@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christianpascual-fernandez/CLionProjects/WordBlast/main.c
+stdio.h
+-
+pthread.h
+-
+time.h
+-
+string.h
+-
+stdlib.h
+-
+fcntl.h
+-
+zconf.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+
